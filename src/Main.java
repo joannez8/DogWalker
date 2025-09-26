@@ -4,8 +4,8 @@ public class Main {
         DogWalker w = new DogWalker(3,c);
         System.out.println(c);
         int hour = c.addDogs();
-        /** for (int i = 7; i < 11; i++)
-            c.addDogs(); */
+        for (int i = 7; i < 11; i++)
+            c.addDogs();
         System.out.println(c);
         System.out.println(w.walkDogs(hour) + " dogs walked.");
         System.out.println(c.numAvailableDogs(hour) + " dogs remaining.");
